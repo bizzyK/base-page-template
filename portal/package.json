@@ -6,20 +6,39 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@sentry/nextjs": "8",
+=======
+    "@testing-library/dom": "^10.2.0",
+    "@types/jest": "^29.5.12",
+    "jest-environment-jsdom": "^29.7.0",
+>>>>>>> b014775fe430e74d7cc7c67b39ba41fa2ca57a9b
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+<<<<<<< HEAD
+=======
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+>>>>>>> b014775fe430e74d7cc7c67b39ba41fa2ca57a9b
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "babel-jest": "^29.7.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
+<<<<<<< HEAD
+=======
+    "jest": "^29.7.0",
+>>>>>>> b014775fe430e74d7cc7c67b39ba41fa2ca57a9b
     "typescript": "^5"
   }
 }
