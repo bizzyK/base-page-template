@@ -1,41 +1,59 @@
 import React from "react";
-import { Typography, Card, CardMedia } from "@mui/material";
+import { Card, CardMedia, Typography, Box } from "@mui/material";
 
 type LinkCardProps = {
   name: string;
   imgSrc: string;
+  url: string;
 };
 
-const LinkCard: React.FC<LinkCardProps> = ({ name, imgSrc }) => {
+const LinkCard: React.FC<LinkCardProps> = ({ name, imgSrc, url }) => {
   return (
     <Card
       sx={{
-        width: "calc(100% / 6 - 24px)",
-        height: 150,
-        backgroundColor: "#333",
-        borderRadius: 2,
+        width: 197,
+        height: 143,
         display: "flex",
         flexDirection: "column",
-        justifyContent: "center",
+        justifyContent: "flex-start",
         alignItems: "center",
+        gap: "8px",
+        padding: 0,
         cursor: "pointer",
-        position: "relative",
-        marginBottom: 2,
-        "&:hover": { backgroundColor: "#444" },
       }}
     >
-      <CardMedia
-        component="img"
-        image={imgSrc}
-        alt={name}
-        sx={{ width: "80%", height: "auto" }}
-      />
-      <Typography
-        variant="body1"
-        sx={{ color: "#fff", position: "absolute", bottom: 10 }}
+      <a
+        href={url}
+        style={{
+          color: "inherit",
+          textDecoration: "none",
+          width: "100%",
+          height: "100%",
+        }}
       >
-        {name}
-      </Typography>
+        <Box sx={{ position: "relative", paddingBottom: "100%", height: 0 }}>
+          <CardMedia
+            component="img"
+            image={imgSrc}
+            alt={name}
+            sx={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              borderRadius: 1,
+            }}
+          />
+        </Box>
+        <Typography
+          variant="subtitle1"
+          sx={{ fontSize: "16px", padding: "10px 0", textAlign: "center" }}
+        >
+          {name}
+        </Typography>
+      </a>
     </Card>
   );
 };
