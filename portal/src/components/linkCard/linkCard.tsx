@@ -1,3 +1,4 @@
+// portal/src/components/linkCard/linkCard.tsx
 import React from "react";
 import { Card, CardMedia, Typography, Box } from "@mui/material";
 
