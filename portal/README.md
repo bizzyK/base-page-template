@@ -24,6 +24,9 @@ Then run
 ```bash
 yarn dev
 ```
+Open the following:
+`http://localhost:3000/sld30`
+`http://localhost:3000/hha`
 
 ### Unit tests
 ```bash
@@ -34,5 +37,3 @@ yarn test
 ```bash
 yarn lint
 ```
-
-
