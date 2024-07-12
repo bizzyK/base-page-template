@@ -1,0 +1,31 @@
+{
+  "plugins": [
+    {
+      "name": "@zeplin/cli-connect-react-plugin"
+    },
+    {
+      "name": "@zeplin/cli-connect-storybook-plugin",
+      "config": {
+        "url": "http://localhost:9009/",
+        "format": "new"
+      }
+    }
+  ],
+  "projects": [
+    "66281568dcaf79b41f0bee2a"
+  ],
+  "components": [
+    {
+      "path": "src\\components\\navbar\\Navbar.tsx",
+      "zeplinIds": [
+        "667c274e57059cbc867c3cc4"
+      ]
+    },
+    {
+      "path": "src\\components\\featuredlinks\\featuredlinks.tsx",
+      "zeplinIds": [
+        "667f2c1e76afde8f124f5c6d"
+      ]
+    }
+  ]
+}

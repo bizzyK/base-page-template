@@ -37,3 +37,14 @@ yarn test
 ```bash
 yarn lint
 ```
+
+## Documentation
+
+### Storybook
+To run Storybook manually, run the following command:
+`yarn storybook`
+
+It will run locally at `http://localhost:6006`
+
+
+To stop Storybook, use CTRL+C
