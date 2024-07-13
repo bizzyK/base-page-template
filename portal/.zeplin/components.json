@@ -44,6 +44,12 @@
       "zeplinIds": [
         "667f2c10bf35c218061af2d6"
       ]
+    },
+    {
+      "path": "src\\stories\\Header.stories.ts",
+      "zeplinIds": [
+        "667f2c10bf35c218061af2d6"
+      ]
     }
   ]
 }
