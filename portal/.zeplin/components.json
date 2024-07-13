@@ -26,6 +26,24 @@
       "zeplinIds": [
         "667f2c1e76afde8f124f5c6d"
       ]
+    },
+    {
+      "path": "src\\components\\header\\header.tsx",
+      "zeplinIds": [
+        "667f2c10bf35c218061af2d6"
+      ]
+    },
+    {
+      "path": "src\\components\\header\\types.ts",
+      "zeplinIds": [
+        "667f2c10bf35c218061af2d6"
+      ]
+    },
+    {
+      "path": "src\\stories\\Header.tsx",
+      "zeplinIds": [
+        "667f2c10bf35c218061af2d6"
+      ]
     }
   ]
 }
