@@ -6,7 +6,7 @@
     {
       "name": "@zeplin/cli-connect-storybook-plugin",
       "config": {
-        "url": "http://localhost:9009/",
+        "url": "http://localhost:6006/",
         "format": "new"
       }
     }
