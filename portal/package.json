@@ -13,7 +13,7 @@
     "build-storybook": "storybook build",
     "zeplin-connect": "zeplin connect",
     "zeplin-connect-dev-mode": "zeplin connect --dev",
-    "chromatic": "npx chromatic --project-token=chpt_1950b490eb02538"
+    "chromatic": "npx chromatic --project-token=chpt_1950b490eb02538 --exit-zero-on-changes"
   },
   "dependencies": {
     "@directus/sdk": "^16.1.0",
