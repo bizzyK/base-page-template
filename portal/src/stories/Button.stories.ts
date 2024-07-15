@@ -56,5 +56,6 @@ export const Small: Story = {
       primary: true,
       label: 'Delete now',
       backgroundColor: 'red',
-    }
+    },
+    tags: ['autodocs']
   };
