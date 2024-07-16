@@ -1,3 +1,26 @@
+.portalHeader {
+  width: 1920px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 32px;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.15), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  background-color: var(--schemes-surface-container-high);
+}
+
+.rightMenu {
+  height: 48px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  padding: 0;
+}
+
 .content {
   height: 1601px;
   align-self: stretch;
