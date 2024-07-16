@@ -1,0 +1,204 @@
+.Portal-Header-portalHeader .Portal-Header-portalHeader {
+  width: 1920px;
+  height: 72px;
+  padding: 12px 32px;
+  background-color: var(--m-3-sys-moon-primary-fixed-dim);
+}
+
+.Portal-Header-portalHeader .portalHeader {
+  width: 1920px;
+  height: 72px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 32px;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.15), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  background-color: var(--schemes-surface-container-high);
+}
+
+.Portal-Header-portalHeader .rightMenu {
+  height: 48px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  padding: 0;
+}
+
+.Portal-Header-portalHeader .icon {
+  width: 48px;
+  height: 48px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.Portal-Header-portalHeader img.SearchFilled {
+  width: 32px;
+  height: 32px;
+  flex-grow: 0;
+  object-fit: contain;
+}
+
+.Portal-Header-portalHeader .Badge-With-Instance {
+  width: 48px;
+  height: 48px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.Portal-Header-portalHeader .icon {
+  width: 48px;
+  height: 48px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.Portal-Header-portalHeader img.NotificationsFilled {
+  width: 32px;
+  height: 32px;
+  flex-grow: 0;
+  object-fit: contain;
+}
+
+.Portal-Header-portalHeader .Badge {
+  width: 20px;
+  height: 20px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6.5px;
+  border-radius: 100px;
+  background-color: var(--primitives-orange-source);
+}
+
+.Portal-Header-portalHeader .text {
+  width: 7px;
+  height: 20px;
+  flex-grow: 0;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.14px;
+  text-align: left;
+  color: #fff;
+}
+
+.Portal-Header-portalHeader .avatar {
+  width: 48px;
+  height: 48px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.Portal-Header-portalHeader img.PersonFilled {
+  width: 24px;
+  height: 24px;
+  flex-grow: 0;
+  object-fit: contain;
+  border-radius: 24px;
+  background-color: var(--schemes-inverse-surface);
+}
+
+.Portal-Header-portalHeader .Frame-29 {
+  width: 706.7px;
+  height: 24px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 48px;
+  padding: 0;
+}
+
+.Portal-Header-portalHeader .Doctrine {
+  width: 54px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: IBMPlexSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--schemes-on-surface);
+}
+
+.Portal-Header-portalHeader .News {
+  width: 36px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: IBMPlexSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--schemes-on-surface);
+}
+
+.Portal-Header-portalHeader img.logo {
+  width: 280.7px;
+  height: 24px;
+  flex-grow: 0;
+  object-fit: contain;
+}
+
+.Portal-Header-portalHeader .CSO-Corner {
+  width: 73px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: IBMPlexSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--schemes-on-surface);
+}
+
+.Portal-Header-portalHeader .Multimedia {
+  width: 71px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: IBMPlexSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--schemes-on-surface);
+}
