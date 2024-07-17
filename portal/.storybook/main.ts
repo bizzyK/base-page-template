@@ -22,7 +22,17 @@ const config: StorybookConfig = {
       })
     );
 
-    // Make any other necessary Webpack modifications here
+    config.module.rules.push({
+      test: /\.(ts|tsx)$/,
+      use: [
+        {
+          loader: require.resolve('babel-loader'),
+          options: {
+            presets: [require.resolve('babel-preset-react-app')],
+          },
+        },
+      ],
+    });
 
     return config;
   },
