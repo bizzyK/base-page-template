@@ -64,5 +64,13 @@
         "667c274e57059cbc867c3cc4"
       ]
     }
-  ]
+  ],
+  "github": {
+    "repository": "zCoreGroup/base-page-template",
+    "branch": "development"
+  },
+  "gitlab": {
+    "repository": "your-gitlab-username/your-repository-name",
+    "branch": "development"
+  }
 }
