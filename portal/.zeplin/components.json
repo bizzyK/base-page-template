@@ -70,7 +70,7 @@
     "branch": "development"
   },
   "gitlab": {
-    "repository": "your-gitlab-username/your-repository-name",
+    "repository": "<PLACEHOLDER>",
     "branch": "development"
   }
 }
