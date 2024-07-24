@@ -9,6 +9,7 @@ const config = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "@zeplin/cli-connect-storybook-plugin/register",
+    "@zeplin/storybook-addon",
     "@storybook/addon-webpack5-compiler-swc",
     "@storybook/addon-onboarding",
     "@chromatic-com/storybook",
