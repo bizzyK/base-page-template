@@ -13,8 +13,8 @@ export const Default = Template.bind({});
 Default.args = {
     data: {
         links: [
-            { url: 'https://example.com', title: 'Link 1', description: 'This is the first link.' },
-            { url: 'https://example.com', title: 'Link 2', description: 'This is the second link.' },
+            { url: 'https://example.com', name: 'Link 1', title: 'Link 1', description: 'This is the first link.' },
+            { url: 'https://example.com', name: 'Link 2', title: 'Link 2', description: 'This is the second link.' },
         ],
     },
 };
