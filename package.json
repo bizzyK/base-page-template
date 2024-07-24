@@ -44,6 +44,7 @@
   "dependencies": {
     "@mui/material": "^5.16.4",
     "@storybook/addon-actions": "^8.2.6",
+    "@storybook/addons": "^7.6.17",
     "@storybook/preset-create-react-app": "^8.2.6",
     "@types/react": "^18.3.3",
     "browserify-zlib": "^0.2.0",

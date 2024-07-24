@@ -11,5 +11,10 @@ const preview = {
 
   tags: ["autodocs", "autodocs"]
 };
+export const parameters = {
+  // Add other parameters if needed
+  docs: { inlineStories: true },
+};
 
+// Add other configurations if needed
 export default preview;
