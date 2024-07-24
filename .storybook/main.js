@@ -13,8 +13,7 @@ const config = {
     "@storybook/addon-webpack5-compiler-swc",
     "@storybook/addon-onboarding",
     "@chromatic-com/storybook",
-    "@storybook/addon-mdx-gfm"
-    "@storybook/preset-create-react-app",
+    "@storybook/addon-mdx-gfm",
   ],
 
   framework: {
