@@ -4,20 +4,24 @@ const config = {
     "../stories/**/*.mdx",
     "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
   ],
+
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "@zeplin/cli-connect-storybook-plugin/register",
-    "@zeplin/storybook-addon",
     "@storybook/addon-webpack5-compiler-swc",
     "@storybook/addon-onboarding",
     "@chromatic-com/storybook",
+    "@storybook/addon-mdx-gfm"
+    "@storybook/preset-create-react-app",
   ],
+
   framework: {
-    name: "@storybook/react-webpack5",
+    name: "@storybook/nextjs",
     options: {},
   },
+
   webpackFinal: async (config) => {
     config.resolve.fallback = {
       ...config.resolve.fallback,
@@ -33,6 +37,12 @@ const config = {
 
     return config;
   },
+
+  docs: {},
+
+  typescript: {
+    reactDocgen: "react-docgen-typescript"
+  }
 };
 
 module.exports = config;

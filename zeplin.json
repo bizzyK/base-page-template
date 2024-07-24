@@ -1,10 +1,16 @@
 {
-  "configurations": [
-    {
-      "projects": ["669aa99836c7f2ad93ce967a"],
-      "storybook": {
-        "url": "https://bizzyk.github.io/base-page-template/storybook-static/"
+  "projects": [
+    "669aa99836c7f2ad93ce967a"
+  ],
+  "styleguide": [],
+  "config": {
+    "plugins": [
+      {
+        "name": "@zeplin/cli-connect-storybook-plugin",
+        "config": {
+          "url": "https://bizzyk.github.io/base-page-template/"
+        }
       }
-    }
-  ]
+    ]
+  }
 }

@@ -3,7 +3,7 @@
     {
       "name": "@zeplin/cli-connect-storybook-plugin",
       "config": {
-        "url": "https://bizzyk.github.io/base-page-template/storybook-static/",
+        "url": "https://bizzyk.github.io/base-page-template/",
         "format": "new"
       }
     }
@@ -43,6 +43,6 @@
     }
   ],
   "github": {
-    "repository": "zCoreGroup/base-page-template"
+    "repository": "bizzyK/base-page-template"
   }
 }
